@@ -1,0 +1,29 @@
+@import '../../variables.scss';
+@import '~@bluedot-innovation/bluedot-ui/src/config/colors.scss';
+
+.HeaderWrapper {
+    height: $header-height;
+    display: flex;
+}
+
+.LeftWrapper {
+    padding: 1.9rem 2.1rem 0;
+}
+
+.RightWrapper {
+    display: flex;
+    margin-left: auto;
+}
+
+.ProjectWrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 4rem;
+    margin-top: 1.8rem;
+}
+
+.ProjectWrapper p{
+    padding: 0 20px;
+    color: $PRIMARY;
+}

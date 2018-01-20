@@ -1,0 +1,12 @@
+.idea
+*.iml
+*.tgz
+node_modules
+dist/
+npm-debug*
+.DS_Store
+coverage/
+.eslintcache
+.sass-cache/
+.env
+yarn-error.log
