@@ -11,7 +11,6 @@ const config = {
         historyApiFallback: {
             index: '/'
         },
-        port: 8090
     },
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({

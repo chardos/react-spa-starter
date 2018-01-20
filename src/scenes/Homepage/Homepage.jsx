@@ -3,7 +3,7 @@ import axios from 'axios';
 
 class Homepage extends Component {
     componentDidMount() {
-        const url = 'http://google.com';
+        const url = 'https://reddit-crypto-watcher.herokuapp.com/api/coins';
 
         axios.get(url)
             .then(response => {
