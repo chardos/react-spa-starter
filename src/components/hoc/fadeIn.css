@@ -1,0 +1,8 @@
+.faded {
+  opacity: 0;
+  transition: 1.5s all;
+}
+
+.faded--in {
+  opacity: 1;
+}
